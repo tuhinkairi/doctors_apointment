@@ -1,0 +1,20 @@
+@keyframes change_background {
+    0%{
+    background-image: url('/images/gal1.jpg');
+  }
+    25%{
+    background-image: url('/images/gal2.jpg');
+  }
+    50%{
+    background-image: url('/images/gal3.jpg');
+  }
+    75%{
+    background-image: url('/images/gal4.jpg');
+  }
+    100%{
+    background-image: url('/images/gal1.jpg');
+  }
+}
+.change_bg{
+    animation: 15s ease-in-out infinite change_background ;
+}
